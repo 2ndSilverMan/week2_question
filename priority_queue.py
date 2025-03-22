@@ -15,7 +15,7 @@ class PriorityQueue:
       return priority
     elif len(self.heap) == 1:
       priority, item = self.heap.pop()
-      return priority
+      return item
     else:
       return None
 
