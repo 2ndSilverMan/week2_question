@@ -1,7 +1,7 @@
 class PriorityQueue:
   def __init__(self):
     self.heap = []
-    
+
   def push(self, item, priority):
     entry = (priority, item)
     self.heap.append(entry)
